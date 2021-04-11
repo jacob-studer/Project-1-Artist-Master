@@ -5,7 +5,14 @@ header {
 
 div img {
     width: 100%;
+    height: 100%;
 }
+
+/* body {
+    background-image: url('../assets/images/concert.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 .navbar-end {
     padding: 1.7%;
@@ -27,7 +34,10 @@ h2 {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
+    background: -webkit-linear-gradient(black, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -63,11 +73,17 @@ h3 {
 .bio {
     font-size: 20px;
     font-weight: bold;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .genre {
     font-size: 50px;
     font-weight:bold;
+}
+
+.genre-style {
+    text-align: center;
 }
 
 .modal-content {
